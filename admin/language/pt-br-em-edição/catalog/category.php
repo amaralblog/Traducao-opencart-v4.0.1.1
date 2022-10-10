@@ -1,6 +1,10 @@
 <?php
 // Heading
+<<<<<<< HEAD
 $_['heading_title']          = 'Departamentos';
+=======
+$_['heading_title']          = 'categories';
+>>>>>>> 9b3e78d7133236c2a3d61ac9f09881d1401532b0
 
 // Text
 $_['text_success']           = 'Success: You have modified categories!';
