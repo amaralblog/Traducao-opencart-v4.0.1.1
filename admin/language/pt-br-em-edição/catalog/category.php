@@ -3,50 +3,50 @@
 <<<<<<< HEAD
 $_['heading_title']          = 'Departamentos';
 =======
-$_['heading_title']          = 'categories';
+$_['heading_title']          = 'departamentos';
 >>>>>>> 9b3e78d7133236c2a3d61ac9f09881d1401532b0
 
 // Text
-$_['text_success']           = 'Success: You have modified categories!';
-$_['text_list']              = 'Category List';
-$_['text_add']               = 'Add Category';
-$_['text_edit']              = 'Edit Category';
-$_['text_default']           = 'Default';
-$_['text_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
+$_['text_success']           = 'Departamento modificado com sucesso!';
+$_['text_list']              = 'Listando departamentos';
+$_['text_add']               = 'Novo departamento';
+$_['text_edit']              = 'Editando departamento';
+$_['text_default']           = 'Padrão';
+$_['text_keyword']           = 'Não utilize espaços, substitua os espaços por - (hífen), e certifique-se que a palavra é exclusiva em toda a loja.';
 
 // Column
-$_['column_name']            = 'Category Name';
-$_['column_sort_order']      = 'Sort Order';
-$_['column_action']          = 'Action';
+$_['column_name']            = 'Departamento';
+$_['column_sort_order']      = 'Posição';
+$_['column_action']          = 'Ação';
 
 // Entry
-$_['entry_name']             = 'Category Name';
-$_['entry_description']      = 'Description';
-$_['entry_meta_title']       = 'Meta Tag Title';
-$_['entry_meta_keyword']     = 'Meta Tag Keywords';
-$_['entry_meta_description'] = 'Meta Tag Description';
-$_['entry_store']            = 'Stores';
-$_['entry_keyword']          = 'Keyword';
-$_['entry_parent']           = 'Parent';
-$_['entry_filter']           = 'Filters';
-$_['entry_image']            = 'Image';
-$_['entry_top']              = 'Top';
-$_['entry_column']           = 'Columns';
-$_['entry_sort_order']       = 'Sort Order';
-$_['entry_status']           = 'Status';
-$_['entry_layout']           = 'Layout Override';
+$_['entry_name']             = 'Departamento';
+$_['entry_description']      = 'Descrição';
+$_['entry_meta_title']       = 'Meta título';
+$_['entry_meta_keyword']     = 'Meta palavras-chave';
+$_['entry_meta_description'] = 'Meta descrição';
+$_['entry_store']            = 'Loja';
+$_['entry_keyword']          = 'URL amigável';
+$_['entry_parent']           = 'Departamento principal';
+$_['entry_filter']           = 'Filtros';
+$_['entry_image']            = 'Imagem';
+$_['entry_top']              = 'Exibir no topo';
+$_['entry_column']           = 'Colunas';
+$_['entry_sort_order']       = 'Posição';
+$_['entry_status']           = 'Situação';
+$_['entry_layout']           = 'Layout para este departamento';
 
 // Help
-$_['help_parent']            = '(Autocomplete)';
-$_['help_filter']            = '(Autocomplete)';
-$_['help_top']               = 'Display in the top menu bar. Only works for the top parent categories.';
-$_['help_column']            = 'Number of columns to use for the bottom 3 categories. Only works for the top parent categories.';
+$_['help_parent']            = '(Autocompletar)';
+$_['help_filter']            = '(Autocompletar)';
+$_['help_top']               = 'A exibição no topo será no menu superior da loja, e só funcionará para um departamento principal.';
+$_['help_column']            = 'O número de colunas para organizar os departamentos inferiores em até 3 níveis. Só funciona para um departamento principal.';
 
 // Error
-$_['error_warning']          = 'Warning: Please check the form carefully for errors!';
-$_['error_permission']       = 'Warning: You do not have permission to modify categories!';
-$_['error_name']             = 'Category Name must be between 1 and 255 characters!';
-$_['error_meta_title']       = 'Meta Title must be greater than 1 and less than 255 characters!';
-$_['error_parent']           = 'The parent category you have chosen is a child of the current one!';
-$_['error_seo']              = 'SEO URL keyword required!';
-$_['error_keyword']          = 'SEO URL must be unique!';
+$_['error_warning']          = 'Atenção: Faltou você preencher alguma informação, verifique todos os campos.';
+$_['error_permission']       = 'Atenção: Você não tem permissão para modificar os departamentos!';
+$_['error_name']             = 'Departamento deve ter entre 2 e 255 caracteres!';
+$_['error_meta_title']       = 'Meta título deve ter entre 3 e 255 caracteres!';
+$_['error_parent']           = 'O departamento principal que você escolheu não pode ser utilizado, pois ele é filho deste departamento!';
+$_['error_seo']              = 'URL obrigatória!';
+$_['error_keyword']          = 'A URL amigável já está em uso!';
